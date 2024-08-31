@@ -7,7 +7,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA
 from sklearn.cluster import KMeans
 
-file_path = '/Users/cristhianbeltran/Desktop/Sports Data Campus/Master Big Data aplicado al Scouting en Futbol/Proyecto Final/Streamlit/data/league_stats_final.csv'
+file_path = '/Users/cristhianbeltran/Desktop/Sports_Data_Campus/Master/Proyecto_Final/Streamlit/data/league_stats_final.csv'
 
 df = pd.read_csv(file_path)
 df = df.drop(columns=['Unnamed: 0'])
