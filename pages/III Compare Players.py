@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from math import pi
 
 # Load the data
-file_path = '/Users/cristhianbeltran/Desktop/Sports Data Campus/Master Big Data aplicado al Scouting en Futbol/Proyecto Final/Streamlit/data/player_stats_final.csv'
+file_path = '/Users/cristhianbeltran/Desktop/Sports_Data_Campus/Master/Proyecto_Final/Streamlit/data/player_stats_final.csv'
 player_stats_final = pd.read_csv(file_path)
 
 # Title of the app
