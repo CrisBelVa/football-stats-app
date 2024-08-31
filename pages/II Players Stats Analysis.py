@@ -11,7 +11,7 @@ from sklearn.metrics import silhouette_samples, silhouette_score
 SEED = 1234
 sns.set_theme(style="whitegrid")
 
-file_path = '/Users/cristhianbeltran/Desktop/Sports Data Campus/Master Big Data aplicado al Scouting en Futbol/Proyecto Final/Streamlit/data/player_stats_final.csv'
+file_path = '/Users/cristhianbeltran/Desktop/Sports_Data_Campus/Master/Proyecto_Final/Streamlit/data/player_stats_final.csv'
 
 df = pd.read_csv(file_path)
 
